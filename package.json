@@ -1,0 +1,26 @@
+{
+  "name": "@chocostack/react-native-pretty-checkbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PrettyCheckbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chocostack/react-native-pretty-checkbox.git"
+  },
+  "keywords": [
+    "checkbox"
+  ],
+  "author": "chocostack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chocostack/react-native-pretty-checkbox/issues"
+  },
+  "homepage": "https://github.com/chocostack/react-native-pretty-checkbox#readme",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-native-fontawesome": "^0.3.0"
+  }
+}
