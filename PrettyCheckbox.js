@@ -8,8 +8,8 @@ const PrettyCheckbox = (props) => {
     let backgroundColor = 'white';
 
     if (props.selected) {
-        color = props.selectedColor ? props.selectedColor : color;
-        backgroundColor = props.selectedColor ? props.selectedColor : backgroundColor;
+        color = props.selectedColor ? props.selectedColor : "#36ADB7";
+        backgroundColor = props.selectedColor ? props.selectedColor : "#36ADB7";
     }
 
     return (
