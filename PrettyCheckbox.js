@@ -12,8 +12,7 @@ const PrettyCheckbox = (props) => {
         backgroundColor = props.selectedColor ? props.selectedColor : "#36ADB7";
     }
 
-    return (
-        <View style={[{
+    return <View style={[{
             height: 24,
             width: 24,
             borderRadius: 12,
@@ -31,8 +30,7 @@ const PrettyCheckbox = (props) => {
                     />
                     : null
             }
-        </View>
-    );
+        </View>;
 };
 
 export default PrettyCheckbox;
