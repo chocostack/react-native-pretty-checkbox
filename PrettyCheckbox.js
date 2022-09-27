@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import React from 'react';
 import { View } from 'react-native';
 
+import * as Animatable from 'react-native-animatable';
+
 const PrettyCheckbox = (props) => {
     let color = '#999';
     let backgroundColor = 'white';
@@ -12,10 +14,12 @@ const PrettyCheckbox = (props) => {
         backgroundColor = props.selectedColor ? props.selectedColor : "#36ADB7";
     }
 
-    return <View style={[{
+    return <Animatable.View 
+        transition="backgroundColor"
+        style={[{
             height: 24,
             width: 24,
-            borderRadius: 12,
+            borderRadius: 6,
             borderWidth: 2,
             borderColor: color,
             alignItems: 'center',
@@ -30,7 +34,7 @@ const PrettyCheckbox = (props) => {
                     />
                     : null
             }
-        </View>;
+        </Animatable.View>;
 };
 
 export default PrettyCheckbox;
